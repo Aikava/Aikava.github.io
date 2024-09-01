@@ -1,0 +1,66 @@
+:root {
+    --color-default: #ffffff;
+    --background-default: #222222;
+    --primary-color: #f00;
+    --secondary-color: #0f0;
+}
+
+body, html {
+    padding: 0;
+    margin: 0;
+}
+
+.site__nav-bar {
+    position: fixed;
+    display: flex;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 4em;
+    border-bottom: 1px solid gray;
+}
+
+.site__sider--hamburger {
+    display: inline-block;
+    position: relative;
+    box-sizing: border-box;
+    border-top: .5em solid black;
+    width: 3em;
+    margin: 1em .5em 0;
+    cursor: pointer;
+    scale: .5;
+}
+
+.site__sider--hamburger:after {
+    content: "";
+    position: absolute;
+    top: 1.5em;
+    bottom: .5em;
+    height: .5em;
+    box-sizing: border-box;
+    background: black;
+    width: 100%;
+}
+
+.site__sider--hamburger:before {
+    content: "";
+    position: absolute;
+    top: .5em;
+    width: 100%;
+    height: .5em;
+    box-sizing: border-box;
+    background: black;
+}
+
+.site__main-content {
+    margin-top: 4em;
+    display: flex;
+    flex-direction: column;
+    min-height: 24em;
+}
+
+.site__footer {
+    height: 12em;
+    background: #e2e2e2;
+}
