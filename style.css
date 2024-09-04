@@ -60,6 +60,15 @@ body, html {
     min-height: 24em;
 }
 
+.site__block {
+    display: flex;
+    width: 100%;
+}
+
+.site__component {
+    display: block;
+}
+
 .site__footer {
     height: 12em;
     background: #e2e2e2;

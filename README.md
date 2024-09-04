@@ -9,18 +9,12 @@ We spend our time to transform joy into coins,
 and then, we spent time to transform coins into joy.
 Or, in general. Try to find a way to use your resources, to get more resources in the same time.
 
+---
+
 ```
 Main_Goal= "collect data and different approaches for creating personal education environment."
+Main_Approach= "Use github pages for providing CRM expirience"
 Deploy= "http://github.com"
 Host= "squarespace"
 Domain= "https://demonomicon.net"
 ```
-
-Change index.html and then
-```shell
-git add .
-git commit -m "some comment"
-git push
-```
-
-If your profile and github pages was configured right, you can check your static site.
