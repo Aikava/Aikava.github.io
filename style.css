@@ -54,10 +54,10 @@ body, html {
 }
 
 .site__main-content {
+    position: relative;
     margin-top: 4em;
     display: flex;
     flex-direction: column;
-    min-height: 24em;
 }
 
 .site__block {
@@ -70,6 +70,23 @@ body, html {
 }
 
 .site__footer {
-    height: 12em;
+    height: 6em;
+    text-align: right;
     background: #e2e2e2;
+    box-sizing: border-box;
+    padding: 1.2em .5em;
+}
+
+.site__splash-block {
+    height: 300px;
+    background: #222222;
+    color: white;
+    text-align: center;
+}
+
+.site__description-section {
+    min-height: 24em;
+    padding: 0 .7em;
+    max-width: 720px;
+    margin: 0 auto;
 }
