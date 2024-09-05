@@ -9,6 +9,11 @@ We spend our time to transform joy into coins,
 and then, we spent time to transform coins into joy.
 Or, in general. Try to find a way to use your resources, to get more resources in the same time.
 
+To provide the best and clearest commands and strategy, I (the developer) collaborate with a team of AI subpersonalities, overseen by an AI-Manager, with support from an AI-Designer and AI-Analytics.
+
+The user interface tools are part of a game set in a virtual office, where AI controls the characters, and the player works on projects within this environment. The internal virtual messenger should function as a subpersonal chat, and the planning tools should be presented as a mind map.
+
+
 ---
 
 ```
