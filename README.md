@@ -23,3 +23,15 @@ Deploy= "http://github.com"
 Host= "squarespace"
 Domain= "https://demonomicon.net"
 ```
+
+Jekyll initial configuration
+
+if you have problem with permission due ```bundle install```
+
+Fix permission for next directories
+```shell
+sudo chmod 1777 -R /var/lib/gems/
+sudo chmod 1777 -R /usr/local/bin
+```
+
+https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll
