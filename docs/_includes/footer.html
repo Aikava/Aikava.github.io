@@ -1,0 +1,23 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">{{ site.title | escape }}</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        {%- if site.email -%}
+        email: <a class="u-email" href="mailto:{{ site.email }}">{{ site.email }}</a><br/>
+        {%- endif -%}
+        {%- if site.github_username -%}
+        github: <a href="https://github.com/{{ site.github_username }}">{{ site.github_username }}</a><br/>
+        {%- endif -%}
+        {%- if site.linkedin_username -%}
+        linkedin: <a href="https://www.linkedin.com/in/{{ site.linkedin_username }}/">{{ site.linkedin_username }}</a><br/>
+        {%- endif -%}
+      </div>
+    </div>
+  </div>
+
+</footer>
