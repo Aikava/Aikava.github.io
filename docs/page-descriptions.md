@@ -28,8 +28,11 @@ This page initially should provide information about:
 - HTML
 - Git
 - UI/UX
+- Markdown
+- Make
+- Lisp
 
-Design of this page inspired by [https://developer.apple.com/design/human-interface-guidelines/foundations](apple design foundations).
+Design of this page inspired by [apple design foundations](https://developer.apple.com/design/human-interface-guidelines/foundations).
 
 ## App page
 This is a page for personall application.
