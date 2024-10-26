@@ -8,12 +8,12 @@
   </ul>
   <div class="site-nav-button" onClick="showNavPanel()"></div>
   </div>
+  <div class="site-nav-panel hidden">
+    <ul class="">
+      {% for item in site.data.navigation %}
+      <li class="site-nav-item"><a href="{{item.url}}">{{item.title}}</a></li>
+      {% endfor %}
+    </ul>
+  </div>
 </header>
-<div class="site-nav-panel out-screen">
-  <ul class="">
-    {% for item in site.data.navigation %}
-    <li class="site-nav-item"><a href="{{item.url}}">{{item.title}}</a></li>
-    {% endfor %}
-  </ul>
-</div>
 
