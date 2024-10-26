@@ -1,4 +1,9 @@
 source: src
 destination: public
-title: demonomicon.net
-collections_dir: src/collections
+title: demonomicon
+collections_dir: collections
+collections:
+  wiki:
+    output: true
+  computer-science:
+    output: true

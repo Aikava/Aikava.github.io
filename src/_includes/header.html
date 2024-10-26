@@ -1,2 +1,19 @@
-<header>
+<header class="site-header">
+  <div class="header-wrapper">
+  <a href="/" class="site-heading">{{site.title}}</a>
+  <ul class="site-nav-list">
+    {% for item in site.data.navigation %}
+    <li class="site-nav-item"><a href="{{item.url}}">{{item.title}}</a></li>
+    {% endfor %}
+  </ul>
+  <div class="site-nav-button" onClick="showNavPanel()"></div>
+  </div>
 </header>
+<div class="site-nav-panel out-screen">
+  <ul class="">
+    {% for item in site.data.navigation %}
+    <li class="site-nav-item"><a href="{{item.url}}">{{item.title}}</a></li>
+    {% endfor %}
+  </ul>
+</div>
+
