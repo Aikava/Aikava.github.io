@@ -1,0 +1,4 @@
+source: src
+destination: public
+title: demonomicon.net
+collections_dir: src/collections
