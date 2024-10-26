@@ -72,12 +72,13 @@ body {
     height: 32px;
     position: relative;
     z-index: 2;
+    margin-top: 5px;
 }
 
 .site-nav-button:before {
     content: " ";
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 4px;
     background: white;
     top: 10px;
@@ -85,10 +86,20 @@ body {
 .site-nav-button:after {
     content: " ";
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 4px;
     background: white;
     bottom: 6px;
+}
+
+.site-nav-close-button:before {
+    top: 15px;
+    rotate: 45deg;
+}
+
+.site-nav-close-button:after {
+    bottom: 13px;
+    rotate: -45deg;
 }
 
 .site-nav-panel {
@@ -107,6 +118,85 @@ body {
 .nav-fade-out {
     animation: fade-out 0.7s;
 }
+
+
+.nav-button-cross:before {
+    animation: rotate-top 0.7s;
+}
+.nav-button-cross:after {
+    animation: rotate-bottom 0.7s;
+}
+
+.nav-button-menu:before {
+    animation: rotate-top 0.7s reverse
+}
+.nav-button-menu:after {
+    animation: rotate-bottom 0.7s reverse;
+}
+
+@keyframes rotate-top {
+    0% {
+        top: 10px;
+        rotate: 0deg;
+    }
+
+    100% {
+        top: 15px;
+        rotate: 45deg;
+    }
+}
+
+@keyframes rotate-bottom {
+    0% {
+        bottom: 6px;
+        rotate: 0deg;
+    }
+
+    100% {
+        bottom: 13px;
+        rotate: -45deg;
+    }
+}
+
+/* .site-nav-button-menu-animation:before { */
+/*     animation: nav-close 0.7s; */
+/* } */
+/* .site-nav-button-close-animation:before { */
+/*     animation: nav-open 0.7s; */
+/* } */
+
+/* .site-nav-button-close:before { */
+/*     rotate: 45deg; */
+/* } */
+
+/* .site-nav-button-close:after { */
+/*     rotate: -45deg; */
+/* } */
+
+/* @keyframes nav-close { */
+/*     0% { */
+/*         top: 6px; */
+/*     } */
+
+/*     20% { */
+/*         top: 15px; */
+/*         rotate: 0deg; */
+/*     } */
+
+/*     to { */
+/*         rotate: 45deg; */
+/*     } */
+/* } */
+/* @keyframes nav-open { */
+/*     from { */
+/*         rotate: 45deg; */
+/*         top: 15px; */
+/*     } */
+/*     to { */
+/*         rotate: 0deg; */
+/*         top: 6px; */
+/*     } */
+/* } */
 
 @keyframes fade-in {
     from {
