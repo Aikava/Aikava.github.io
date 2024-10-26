@@ -31,6 +31,8 @@ This page initially should provide information about:
 - Markdown
 - Make
 - Lisp
+- Plan9
+- Julia
 
 Design of this page inspired by [apple design foundations](https://developer.apple.com/design/human-interface-guidelines/foundations).
 
@@ -39,3 +41,4 @@ This is a page for personall application.
 Application includes mindmaping, diary and subpersonal chat.
 Main goal for this application is provide help in design making, understanding potential problems and data collection.
 Application should collect and sort information about computer science.
+App page is web based operation system extends [Plan9](https://p9f.org/) and [FreeBSD](https://docs.freebsd.org/en/books/handbook/)
