@@ -1,14 +1,11 @@
 const navPanel = document.querySelector(".site-nav-panel");
 const navPanelButton = document.querySelector(".site-nav-button");
 
-// add click catcher
 function showNavPanel(event) {
   if (event && event.target === navPanel)
     return;
 
   const handleFadeIn = () => {
-    // navPanelButton.classList.remove("site-nav-button-close-animation");
-    
     navPanelButton.classList.remove("nav-button-cross");
     navPanelButton.classList.add("site-nav-close-button");
     navPanel.classList.remove("nav-fade-in");
@@ -17,7 +14,6 @@ function showNavPanel(event) {
   };
 
   const handleFadeOut = () => {
-    // navPanelButton.classList.remove("site-nav-button-menu-animation");
     navPanelButton.classList.remove("site-nav-close-button");
     navPanelButton.classList.remove("nav-button-menu");
     navPanel.classList.add("hidden");

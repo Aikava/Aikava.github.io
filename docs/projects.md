@@ -22,12 +22,11 @@ __projects for demonstrating developers skills__
 ---
 **Frontend**
 - Static web page
-- RESTfull API
-- Server
+
 
 ---
 **Backend**
-
+- RESTfull API
 ---
 **Computer science**
 
