@@ -27,3 +27,8 @@
 - A skill list with links to relevant portfolio sections.
 - Timeline of employment history with key achievements.
 - "Download CV" button for a PDF version.
+
+---
+
+## **Core functionality**
+- Adding jekyll
