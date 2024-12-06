@@ -1,0 +1,11 @@
+- name: Home
+  link: /
+- name: Github
+  link: https://github.com/Aikava
+  target: true
+- name: Blog
+  link: /pages/blog
+- name: Portfolio
+  link: /pages/portfolio
+- name: CV
+  link: /pages/cv
