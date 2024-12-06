@@ -1,8 +1,44 @@
 ---
-layout: default
+layout: landing
 ---
-<section id="splash" class="splash">
+
+<section class="splash-container">
     <div class="splash__text">
-        Fullstack developer
+        <h1>Fullstack developer</h1>
     </div>
 </section>
+<main class="content">
+    {% include nav.html %}
+    <section class="about">
+        Hello, my name is Dmitrii and im fullstack developer.
+    </section>
+    <section class="skills">
+        <article>
+            <b>Frontend</b>
+            <p>List of frontend projects</p>
+            <p>Pomodoro app</p>
+            <p>Custom dropdown</p>
+            <p>Todo list app</p>
+            <p>Weather app</p>
+        </article>
+        <article>
+            <b>Backend</b>
+            <p>List of backend projects</p>
+            <p>Todo list API</p>
+            <p>Weather API</p>
+            <p>E-Commerce API</p>
+            <p>Database backup utility</p>
+        </article>
+        <article>
+            <b>Fundamentals</b>
+            <p>List of fundamentals projects</p>
+            <p>Graphs algorithms</p>
+            <p>Searching algorithms</p>
+            <p>Tree algorithms</p>
+            <p>Problem solving</p>
+        </article>
+    </section>
+    {% include footer.html %}
+</main>
+
+

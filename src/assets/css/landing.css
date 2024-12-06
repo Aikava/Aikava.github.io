@@ -1,0 +1,49 @@
+.splash-container {
+    z-index: 1;
+    width: 100%;
+    height: 88%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    overflow: hidden;
+}
+
+.splash__text {
+    position: absolute;
+    top: 100px;
+    margin: 0 auto;
+    height: 50%;
+    color: white;
+}
+
+.content {
+    z-index: 2;
+    min-height: 12%;
+    top: 87%;
+    position: absolute;
+    background: white;
+    width: 100%;
+}
+
+.about {
+    padding: 1em 1em 3em;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    background: #eeeeee;
+}
+
+.navigation-menu {
+    position: sticky;
+    top: 0;
+    float: right;
+    margin-right: 2em;
+}

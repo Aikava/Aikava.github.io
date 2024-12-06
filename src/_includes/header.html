@@ -1,9 +1,4 @@
 <header class="header">
-    <img class="site-img" src="https://avatars.githubusercontent.com/u/13298650"/>
-    <nav class="navigation-menu">
-        {% for item in site.data.navigation %}
-        <a nonce {% if item.target %} target="_blank"  {% endif %}
-           href="{{ item.link }}">{{item.name}}</a>
-        {% endfor %}
-    </nav>
+    <img class="header__site-img" src="https://avatars.githubusercontent.com/u/13298650"/>
+    {% include nav.html %}
 </header>

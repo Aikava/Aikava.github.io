@@ -4,8 +4,8 @@
   link: https://github.com/Aikava
   target: true
 - name: Blog
-  link: /pages/blog
+  link: /pages/blog.html
 - name: Portfolio
-  link: /pages/portfolio
+  link: /pages/portfolio.html
 - name: CV
-  link: /pages/cv
+  link: /pages/cv.html

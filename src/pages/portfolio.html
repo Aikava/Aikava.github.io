@@ -1,5 +1,6 @@
 ---
 layout: default
+user: aikava
 ---
 <section id="portfolio-splash">
     <h1>Work in progress...</h1>
@@ -8,13 +9,10 @@ layout: default
 
 </aside>
 <section id="projects">
-    <article>
-        <h2>Route record</h2>
-        <a nonce href="https://github.com/aikava/route-recorder" target="_blank">Github</a>
-        <details>
-            <summary>Preview</summary>
-        </details>
-        <h3>Description</h3>
-        <pre>Copy route recorder repo description</pre>
-    </article>
+    <h2>Test assignments</h2>
 </section>
+
+<script src="/assets/js/portfolio.js" type="application/javascript"></script>
+<script type="application/javascript">
+    loadRepositories("{{page.user}}");
+</script>
