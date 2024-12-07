@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/assets/css/main.css"/>
+    {% if page.styles %}
+        {% for style in page.styles %}
+            <link rel="stylesheet" href="/assets/css/{{style}}.css" />
+        {% endfor %}
+    {% endif %}
     <title>aikava.github.io</title>
 </head>
 <body>

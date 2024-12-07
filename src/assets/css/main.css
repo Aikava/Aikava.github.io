@@ -35,6 +35,15 @@ body {
     text-decoration: underline;
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    padding: .7em 1.2em;
+    box-sizing: border-box;
+}
+
 .footer {
     background: darkgray;
     box-sizing: border-box;
@@ -42,4 +51,16 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: end;
+}
+
+.splash-container {
+    height: 33vh;
+    width: 100%;
+    position: relative;
+}
+
+.splash__text {
+    text-align: center;
+    width: 100%;
+    line-height: 33vh;
 }

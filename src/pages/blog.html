@@ -1,11 +1,11 @@
 ---
 layout: default
 ---
-<section id="blog-splash">
-    <h1>Still looks for inspiration</h1>
+<section class="splash-container">
+    <div class="splash__text">Still looks for inspiration</div>
 </section>
 <aside id="tags"></aside>
-<section id="posts">
+<section class="content">
     {% for post in site.posts %}
     <a href="{{ post.url }}">{{post.title}}</a>
     {% endfor %}
