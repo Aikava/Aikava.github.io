@@ -28,12 +28,8 @@
 
 .about {
     padding: 1em 1em 3em;
-}
-
-.skills {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    margin: 0 auto;
+    max-width: 32em;
 }
 
 .footer {
@@ -42,8 +38,11 @@
 }
 
 .navigation-menu {
+    box-sizing: border-box;
     position: sticky;
     top: 0;
-    float: right;
-    margin-right: 2em;
+    padding: 1em;
+    background: white;
+    width: 100%;
+    justify-content: end;
 }
