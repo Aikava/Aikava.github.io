@@ -1,32 +1,16 @@
 ---
-layout: landing
+layout: default
 ---
-
 <section class="splash-container">
     <div class="splash__text">
         <h1>Fullstack developer</h1>
     </div>
 </section>
-<main class="content">
-    {% include nav.html %}
-    <section class="about">
-        <article>
-            <p>
-                <b>Disclaimer</b><br/>
-                This blog is my personal space to reflect on my journey, share insights, and connect with others facing similar challenges.
-            </p>
-            <p>
-                Hello, my name is Dmitrii, and I’m a full-stack developer.
-                I’ve been reflecting on my personal and professional goals.
-                So, I decided to create this blog to improve my skills and help myself.
-            </p>
-            <p>
-                I’m open to recommendations and advice through issues or pull requests.
-                You can also share your personal story about how you deal with burnout.
-            </p>
-        </article>
-    </section>
-    {% include footer.html %}
-</main>
+<section class="about">
+    <article>
+        {% assign text = site.data.texts | where: "id", "about" | first %}
+        {{ text.en }}
+    </article>
+</section>
 
 
