@@ -3,19 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/main.css"/>
-    {% if page.styles %}
-        {% for style in page.styles %}
-            <link rel="stylesheet" href="/assets/css/{{style}}.css" />
-        {% endfor %}
-    {% endif %}
+    <link rel="stylesheet" href="/assets/css/layout.css"/>
+    <link rel="stylesheet" href="/assets/css/navigation.css"/>
     <title>aikava.github.io</title>
 </head>
 <body>
+<main class="site">
 {% include header.html %}
-<main class="content">
-    {{ content }}
-</main>
+    <section class="content">
+        {{ content }}
+    </section>
 {% include footer.html %}
+</main>
 </body>
 </html>
