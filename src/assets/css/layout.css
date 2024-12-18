@@ -6,21 +6,58 @@ body {
 }
 
 .site {
-    position: absolute;
-    top: 0; left: 0; right: 0; bottom: 0;
-    display: grid;
-    grid-template-rows: 2em 1fr;
-    height: 100%;
 }
 
 .header {
     background: green;
+    position: sticky;
+    top: 0;
 }
 
 .content {
-    border-radius: 1em;
+    max-width: 72em;
+    margin: 0 auto;
+    width: 100%;
+    background: #eeeeee;
     box-sizing: border-box;
-    background: #e2e2e2;
-    margin: .7em 1.2em;
-    padding: .7em .7em;
+    padding: 1.2em .7em;
+}
+
+.ribbon {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+    overflow: scroll;
+}
+
+.box-l {
+    display: flex;
+    flex-direction: column;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    border-radius: 1em;
+    background: #bbbbbb;
+}
+
+.project__preview {
+    width: 320px;
+    height: 320px;
+    border: none;
+    border-radius: 1em 1em 0 0;
+    text-align: center;
+}
+
+.project__title {
+    text-align: center;
+}
+.project__description {
+    padding: .5em .7em;
+    text-align: justify;
+}
+
+.title {
+    display: block;
 }

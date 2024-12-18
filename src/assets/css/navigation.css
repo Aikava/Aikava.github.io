@@ -4,6 +4,9 @@
     height: 2em;
     margin: 0 auto;
     max-width: 32em;
+    width: 100%;
+    display: flex;
+    gap: 1em;
 }
 
 .navigation__item {

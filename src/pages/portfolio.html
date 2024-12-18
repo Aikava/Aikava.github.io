@@ -6,28 +6,40 @@ layout: default
         <h2>Projects i've made</h2>
     </span>
 </section>
+<b id="frontend" class="title">Frontend</b>
 <section class="ribbon">
-    <article id="frontend" class="box-l">
-        <b>Frontend</b>
-        <p>Pomodoro app</p>
-        <p>Custom dropdown</p>
-        <p>Todo list app</p>
-        <p>Weather app</p>
-        <p>Chat app</p>
+    {% for project in site.data.projects %}
+    <article class="box-l project">
+        <img alt="preview" class="project__preview" src="{{ project.preview_url}}"/>
+        <p class="project__description">
+            {{ project.description }}
+        </p>
+        <a href="{{project.repo_url}}">Repository</a>
+        <span class="project__title">{{ project.title }}</span>
     </article>
+    {% endfor %}
+
+    <p>Custom dropdown</p>
+    <p>Todo list app</p>
+    <p>Weather app</p>
+    <p>Chat app</p>
 </section>
-<article id="backend" class="box-l">
-    <b>Backend</b>
-    <p>Todo list API</p>
+<b id="backend" class="title">Backend</b>
+<section class="ribbon">
+    <article class="box-l">
+        <p>Todo list API</p>
+    </article>
     <p>Weather API</p>
     <p>E-Commerce API</p>
     <p>Database backup utility</p>
     <p>Chat app API</p>
-</article>
-<article id="fundamentals" class="box-l">
-    <b>Fundamentals</b>
-    <p>Graphs algorithms</p>
+</section>
+<b id="fundamentals" class="title">Fundamentals</b>
+<section class="ribbon">
+    <article class="box-l">
+        <p>Graphs algorithms</p>
+    </article>
     <p>Searching algorithms</p>
     <p>Tree algorithms</p>
     <p>Problem solving</p>
-</article>
+</section>
