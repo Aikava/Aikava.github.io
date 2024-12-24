@@ -2,5 +2,4 @@
 .private
 .notes.md
 Gemfile.lock
-_site
 public
