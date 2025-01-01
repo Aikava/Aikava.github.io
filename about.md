@@ -4,15 +4,16 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hello!
+My name is Dmitrii (aka Aikava).
+I'm a frontend/fullstack developer—or whatever your project or company needs.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+This site showcases some of my passions, including technology, programming languages, learning, and writing.
+The main purpose of this blog is to demonstrate my skills (as a portfolio) and share knowledge.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I have been on a long journey in the world of programming for over 8 years, learning from some of the best specialists (in my opinion) while working in great companies and teams.
+
+I hope my experience will be helpful to you.
 
 
-[jekyll-organization]: https://github.com/jekyll
+At the very least, this blog serves as my portfolio. 🤷‍♀️
