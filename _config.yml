@@ -20,9 +20,8 @@
 
 title: aikava.github.io
 email: aikava.kizuna@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Personal blog/site for personal use.
-  © 2025 Rykov Dmitrii
+description: Personal blog/site for personal use.
+copyright: © 2025 Rykov Dmitrii
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
